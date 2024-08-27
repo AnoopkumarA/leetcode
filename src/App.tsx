@@ -15,7 +15,7 @@ const about: React.FC = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-      
+          <Route path="/leetcode" element={<Home />} />
           
         </Routes>
       </Router>
