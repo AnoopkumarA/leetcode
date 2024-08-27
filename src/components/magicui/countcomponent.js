@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import NumberTicker from "./count";
+const NumberTickerDemo = () => {
+    return (_jsxs(_Fragment, { children: [" ", _jsxs("div", { className: "grid grid-cols-3 gap-3", children: [_jsxs("p", { className: "whitespace-pre-wrap text-5xl md:text-7xl font-medium tracking-tighter text-white dark:text-white", children: [_jsx(NumberTicker, { value: 20 }), "+", _jsx("br", {}), _jsx("p", { className: "text-2xl md:text-3xl font-mono py-3 relative md:-left-16", children: "Projects Completed" })] }), _jsxs("p", { className: "whitespace-pre-wrap text-5xl md:text-7xl  font-medium tracking-tighter text-white dark:text-white", children: [_jsx(NumberTicker, { value: 3 }), "+", _jsx("br", {}), _jsx("p", { className: "text-2xl md:text-3xl font-mono py-3 relative md:-left-20", children: "Years of Experience" })] }), _jsxs("p", { className: "whitespace-pre-wrap text-5xl md:text-7xl font-medium tracking-tighter text-white dark:text-white", children: [_jsx(NumberTicker, { value: 20 }), "+", _jsx("br", {}), _jsx("p", { className: "text-2xl md:text-3xl font-mono py-3 relative md:-left-16", children: "Happy Customers" })] })] })] }));
+};
+export default NumberTickerDemo;
