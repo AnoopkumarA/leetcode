@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+body {
+    background-color: #01020C;
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
