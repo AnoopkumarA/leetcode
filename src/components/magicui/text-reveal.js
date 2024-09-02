@@ -11,7 +11,7 @@ export const TextRevealByWord = ({ text, className, }) => {
         offset: ["start end", "end start"],
     });
     const words = text.split(" ");
-    return (_jsx("div", { className: cn("relative z-0 h-[200vh]", className), children: _jsx("div", { ref: targetRef, className: "sticky top-0 mx-auto flex h-[50%] max-w-7xl items-center bg-transparent px-[1rem] py-[5rem]", children: _jsx("p", { className: "flex flex-wrap p-5 font-mono font-extrabold text-black/20 dark:text-white/20 md:p-8 text-xl md:text-2xl lg:p-10 lg:text-2xl xl:text-2xl tracking-tighter", children: words.map((word, i) => {
+    return (_jsx("div", { className: cn("relative z-0 h-[200vh]", className), children: _jsx("div", { ref: targetRef, className: "sticky top-0 mx-auto flex h-[50%] max-w-7xl items-center bg-transparent px-[1rem] py-[5rem]", children: _jsx("p", { className: "flex flex-wrap p-5 font-mono font-extrabold text-black/20 dark:text-white/20 md:p-8 text-lg md:text-2xl lg:p-10 lg:text-2xl xl:text-2xl tracking-tighter", children: words.map((word, i) => {
                     const start = (i / words.length) * 0.75; // Delay by increasing start
                     const end = start + 1.2 / words.length; // Shorten the range
                     return (_jsx(Word, { progress: scrollYProgress, range: [start, end], children: word }, i));
