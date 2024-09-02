@@ -26,7 +26,7 @@ const home: React.FC = () => {
 <div className="flex justify-center items-center text text-white text-6xl md:text-8xl font-semibold mt-36">
     <p className=" relative -top-14" id="about">About Us</p></div>
     <p className="flex items-center justify-center relative -top-10 text-gray-500 text-2xl md:text-5xl font-bold">LeetCode Diaries Assosiation</p>
-<div className=" relative top-[42.6rem] md:top-[48.6rem] -mt-[60rem] md:-mt-[64rem] ">
+<div className=" relative top-[52.6rem] md:top-[48.6rem] -mt-[60rem] md:-mt-[64rem] ">
 <TextRevealDemo></TextRevealDemo></div>
 
 <div className="relative left-8 md:-top-28 -top-10 md:left-60 "><NumberTickerDemo></NumberTickerDemo></div>
